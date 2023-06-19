@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+    font-size: 22px;
+}
+
+:root{
+    font-size:62.5%;
+    }
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-size: 1.6rem;
+    width: 100%;
+    min-height: 100vh;
+}
+
+h2 {
+    font-family: Laila;
+    font-weight: bolder;
+}
+
+h3 {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.mypage {
+    width:151.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 128.1px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 130px;
+
+}
+
+.product-info {
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+
+}
+
+.images {
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+
+}
+
+.main-img>img {
+    object-fit: cover;
+    border-radius: 24px;
+    height: 58.4rem;
+}
+
+.other-img {
+    display: flex;
+    background-color: #FFF5EA;
+    border-radius: 24px;
+    width: 584px;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.other-img>* {
+    height: 150px !important;
+    width: auto;
+}
+
+.img1>img,
+.img2>img,
+.img3>img {
+    object-fit: cover;
+    height: 150px !important;
+    width: auto;
+}
+
+.info-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px;
+    width: 738px;
+    height: 58.4rem;
+    left: 693px;
+    top: 277px;
+    background-color: #FFF5EA;
+    border-radius: 24px;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.rating {
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+}
+
+.sec2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.sec2>* {
+    padding: 5px;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width:600px;
+    padding: 10px;
+}
+
+.zipcode{
+    width:300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.purchase {
+    padding-top: 30px;
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+
+button {
+    width: 290px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border: 1px solid #1F1F1F;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #D97642;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 10px;
+}
+
+.below-desc {
+    display: flex;
+    justify-content: space-around;
+    gap:80px;
+}
+
+.below-desc>* {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 50%;
+}
+
+ul {
+    
+}
+
+.manufactured-by>.content {
+    display: flex;
+    gap: 20px;
+    padding-left: 5px;
+}
+
+.manufactured-by >h2{
+    margin-left: 15px;
+}
+
+.company-name {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Laila';
+    font-weight: bolder;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+}
+
+h3{
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Quicksand';
+}
+
+.faq{
+    width: 100%;
+}
+
+.faq .heading{
+    margin-bottom: 35px;
+}
+
+.questions{
+    width: 70%;
+}
+
+.acc{
+    margin: 20px auto;
+
+}
+
+.acc li{
+    list-style: none;
+    width:100%;
+    margin-bottom:40px;
+    padding:10px;
+    border: 0.5px black solid;
+    border-radius: 10px;
+}
+
+.acc li:hover{
+    background-color: #FFEBD7;
+    ;
+}
+
+.acc li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.acc li label span{
+    padding: 10px;
+}
+
+.acc label + input[type="radio"]{
+    display: none;
+}
+
+.acc .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.acc .content p{
+    padding: 20px 0px;
+}
+
+.acc label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rev{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.review-img >*{
+    margin:10px;
+    width: 180px;
+}
+
+.img-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF5EA;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.item{
+    background-color: #FFFFFF;
+    border-radius: 12px ;
+    width:298px;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+
+.similar .info .rating{
+    font-size: 18px;
+}
+
+.similar .title p{
+    font-size: smaller;
+
+}
+
+73.8 padding: 72px 79px 266px 79px;
