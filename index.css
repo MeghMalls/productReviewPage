@@ -49,6 +49,25 @@ h3 {
     line-height: 3.2rem;
 }
 
+h2 {
+    font-family: 'Laila';
+    font-weight: bolder;
+    font-style: normal;
+    font-weight: 400rem;
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+    letter-spacing: 0.04em;
+}
+
+h3{
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Quicksand';
+}
+
+
 .mypage {
     margin-bottom: 50rem;
     width:100%;
@@ -56,8 +75,6 @@ h3 {
     flex-direction: column;    
     gap:12rem;
 }
-
-
 
 .product-info {
 
@@ -80,7 +97,7 @@ h3 {
 
 .main-img{
     width:auto;
-    max-width:54rem;
+    max-width:44rem;
     height:auto;
     border-radius: 2.4rem;
 }
@@ -100,7 +117,7 @@ h3 {
     padding-right: 2rem;
     background-color: #FFF5EA;
     border-radius: 2.4rem;
-    max-width: 54rem;
+    max-width: 44rem;
     width:auto;
     height: 20rem;
     justify-content: space-between;
@@ -131,13 +148,21 @@ h3 {
     max-width: fit-content;
 }
 
+.info-panel h2{
+    font-size: 2.6rem !important;
+}
+
+.info-panel h3{
+    font-size: 2rem !important;
+}
+
 .info-panel {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 2rem;
-    padding: 4rem;
-    max-width: 68rem;
+    padding: 2.5rem;
+    max-width: 63rem;
     height: auto;
     background-color: #FFF5EA;
     border-radius: 2.4rem;
@@ -358,24 +383,6 @@ button:hover {
 .company-name {
     display: flex;
     align-items: center;
-}
-
-h2 {
-    font-family: 'Laila';
-    font-weight: bolder;
-    font-style: normal;
-    font-weight: 400rem;
-    font-size: 3.2rem;
-    line-height: 4.2rem;
-    letter-spacing: 0.04em;
-}
-
-h3{
-    font-weight: bold;
-}
-
-p {
-    font-family: 'Quicksand';
 }
 
 .return-policy{
