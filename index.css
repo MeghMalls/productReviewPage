@@ -77,7 +77,6 @@ p {
 }
 
 .product-info {
-
     display: flex;
     gap: 3.5rem;
     justify-content: space-around;
@@ -92,7 +91,6 @@ p {
     display: flex;
     flex-direction: column;
     gap: 1.9rem;
-
 }
 
 .main-img{
@@ -112,14 +110,14 @@ p {
 
 .other-img {
     display: flex;
-    gap: 1.5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     background-color: #FFF5EA;
     border-radius: 2.4rem;
-    max-width: 44rem;
+    max-width: 45rem;
     width:auto;
-    height: 20rem;
+    height: 15rem;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
@@ -128,7 +126,7 @@ p {
 }
 
 .other-img>* {
-    height: 15rem !important;
+    height: 13rem !important;
     width: auto;
 }
 
@@ -136,7 +134,7 @@ p {
 .img2>img,
 .img3>img {
     object-fit: cover;
-    height: 15rem !important;
+    height: 13rem !important;
     width: auto;
 }
 
